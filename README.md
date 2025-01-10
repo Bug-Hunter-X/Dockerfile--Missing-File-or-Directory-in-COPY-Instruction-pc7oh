@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: failure to properly copy files into the image. The initial Dockerfile attempts to run a Python script, but fails because the script and its dependencies are not correctly located in the image.  The solution provides a corrected Dockerfile that addresses this issue.
